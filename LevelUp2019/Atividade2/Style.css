@@ -1,0 +1,17 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    align-content: center;
+    color: aquamarine;
+}
+
+#p10 {
+
+    color: white;
+}
+
+h1:hover { color: fuchsia; }
+
+p::first-letter {font-size: xx-large; }
