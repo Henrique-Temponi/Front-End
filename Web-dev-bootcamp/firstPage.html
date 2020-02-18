@@ -22,7 +22,7 @@
         It surprise informed mr advanced do outweigh
     </p>
 
-    <h2>Essa outra definicao</h2>
+    <h2>Teste com listas</h2>
 
     <!-- Fazer um lista com os items -->
     <ol>
@@ -41,18 +41,13 @@
         </li>
     </ol>
 
+    <h2>Testes com imagens e links</h2>
 
     <a href="page2.html">Pagina 2</a>
+    <p></p>
     <img src="../Site/img/Zuikaku.jpg">
 
-    <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-    </ul>
-
-    <h2>Essa outra definao com o mesmo tag</h2>
+    <h2>Testes com tabelas</h2>
 
     <table border="1">
         <thead>
@@ -73,6 +68,85 @@
         </tbody>
     </table>
 
-    <h3>Essa outra heading com outra tag menor</h3>
+    <h2>Teste com forms</h2>
+
+    <h3>Log-in</h3>
+
+    <!-- action - onde os dados do form vao -->
+    <!-- method - que tipo de metodo de http vai ser usado-->
+    <!-- action="http://wikipedia.org" method="GET" -->
+    <form>
+        <label>
+            Username:<input name="username" type="text" placeholder="Username">
+        </label>
+        <p></p>
+        <label>
+            Password:<input name="password" type="password" placeholder="password" id=""> 
+        </label>
+        
+        
+        <!-- <button type="submit"></button> -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Log-in (metodo de label diferente)</h3>
+
+    <form>  
+        <label for="username">Username:</label>
+        <input id="username"name="username" type="text" placeholder="Username">
+
+        <label for="password">Password:</label>
+        <input name="password" type="password" placeholder="password" id="password"> 
+        
+        
+        <!-- <button type="submit"></button> -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Log-in (teste com validacao de forms)</h3>
+
+    <form>  
+        <label for="email">email:</label>
+        <input id="email" name="email" type="email" placeholder="email" required>
+
+        <label for="password">Password:</label>
+        <input name="password" type="password" placeholder="password" id="password" required> 
+        
+        
+        <!-- <button type="submit"></button> -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2></h2>
+
+    <p>Navios ou avioes</p>
+    <form>
+        <label for="navios">Navios: </label>
+        <input type="radio" name="NaviosAvioes" value="NAVIOS" id="navios">
+
+        <label for="avioes"></label>
+        <input type="radio" name="NaviosAvioes" value="AVIOES" id="avioes">
+
+        <p>mar ou ceu</p>
+        <select name="ceuMar" id="">
+            <option>mar</option>
+            <option>ceu</option>
+        </select>
+
+        <p>:) ou ): ?</p>
+        <select name="estado" id="">
+            <option value="feliz">:)</option>
+            <option value="triste">):</option>
+        </select>
+
+        <button>go!</button>
+    </form>
+
+    
+
+    <form action=""></form>
+
+    
+    <input type="checkbox" name="" id="">
 </body>
 </html>
