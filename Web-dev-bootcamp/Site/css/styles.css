@@ -1,0 +1,11 @@
+h1 {
+    /* color: red; */
+    /* color: #5544ff; */
+    color: rgb(231, 24, 201);
+}
+
+li {
+    /* color: green; */
+    color: rgba(123, 173, 12, 1); 
+    /* O ultimo valor no rgba se for 0 ele seria transparente */
+}
