@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <h1>Registro</h1>
+
+    <form action="">
+        <label for="primeiroNome">Primeiro nome: </label>
+        <input type="text" name="primeiroNome" id="primeiroNome" placeholder="Roberto">
+
+        <label for="segundoNome">Segundo nome: </label>
+        <input type="text" name="segundoNome" id="segundoNome" placeholder="Maia">
+
+        <br>
+
+        <label for="sexoMasculino">Masculino </label>
+        <input type="radio" name="sexo" id="sexoMasculino" value="M">
+
+        <label for="sexoFeminino">Feminino </label>
+        <input type="radio" name="sexo" id="sexoFeminino" value="F">
+
+        <label for="sexoOutro">Outro </label>
+        <input type="radio" name="sexo" id="sexoOutro" value="O">
+
+        <br>
+
+        <label>Email: <input type="email" placeholder="Email@email" name="email"required></label>
+        <label>Password: <input type="password" name="senha" id="" placeholder="Password"></label>
+
+        <br>
+
+        <label>Aniversario: 
+            <select name="mes" id="">
+                <option value="jan">Janeiro</option>
+                <option value="fev">Fevereiro</option>
+                <option value="mar">Marco</option>
+            </select>
+
+            <select name="dia" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <select name="ano" id="">
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </label>
+
+        <br>
+
+        <label for="termosConticoes">Eu li e aceito os termos de condicao <input type="checkbox" name="termosConticoes" id="termosConticoes" value="sim"></label>
+
+        <br>
+
+        <button type="submit">Go!</button>
+    </form>
+</body>
+</html>
