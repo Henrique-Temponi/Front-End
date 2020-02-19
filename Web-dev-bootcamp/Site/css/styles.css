@@ -2,10 +2,26 @@ h1 {
     /* color: red; */
     /* color: #5544ff; */
     color: rgb(231, 24, 201);
+
+    border-color: honeydew;
+    border-width: 5px;
+    border-style: groove;
 }
 
 li {
     /* color: green; */
     color: rgba(123, 173, 12, 1); 
     /* O ultimo valor no rgba se for 0 ele seria transparente */
+}
+
+h2 {
+    color: black;
+    background: orange;
+}
+
+body {
+    /* background: grey; */
+    background: url(../../../Site/img/Tsunami_by_hokusai_19th_century.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
