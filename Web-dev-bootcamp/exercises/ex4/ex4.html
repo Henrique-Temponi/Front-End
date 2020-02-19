@@ -30,7 +30,9 @@
         <br>
 
         <label>Email: <input type="email" placeholder="Email@email" name="email"required></label>
-        <label>Password: <input type="password" name="senha" id="" placeholder="Password"></label>
+        <!-- <label>Password: <input type="password" name="senha" id="" placeholder="Password" maxlength="5"></label> -->
+        <label>Password: <input type="password" name="senha" id="" placeholder="Password" pattern=".{5,10}"
+            required title="a senha precisa ter de 5 ate 10 caracteres"></label>
 
         <br>
 
