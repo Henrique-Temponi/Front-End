@@ -1,4 +1,4 @@
-body {
+/* body {
     background: orange;
 }
 
@@ -12,4 +12,47 @@ body {
     background: black;
     color: blueviolet;
     font-size: x-large;
+}
+ */
+
+ /* Pegar todos */
+ /* * {
+     border: 1px solid lightgray;
+ } */
+
+ /* pegar todos os p que forem descendentes de div */
+/* div p {
+    color: red;
+} */
+
+/* pegar todos os p que sao irmao (mesmo nivel de intentacao) de h1 */
+/* h1 + p {
+    border: 4px solid red;
+} */
+
+/* pegando a tag, selecione todos aquels que tiverem a class test */
+/* p[class="test"] {
+    background: blue;
+} */
+
+/* p:nth-of-type(even) {
+    background: blue;
+} */
+/* 
+p:nth-of-type(n) {
+    background: blue;
+} */
+
+/* p:nth-of-type(2n + 1) {
+    background: blue;
+} */
+
+a {
+    color:red;
+    background: black;
+}
+
+a:visited {
+    color: purple;
+    background: green;
 }
