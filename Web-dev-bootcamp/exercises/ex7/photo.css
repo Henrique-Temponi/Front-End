@@ -1,0 +1,16 @@
+img {
+    width: 45%;
+    height: 250px;
+    float: left;
+    margin: 1.35% 2.5%;
+}
+
+p {
+    width: 45%;
+    margin-left: 2.5%;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 3px solid gray;
+}
