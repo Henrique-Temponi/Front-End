@@ -1,0 +1,19 @@
+p {
+    /* content */
+
+    /* width: 200px; */
+    width: 50%;
+
+    /* border */
+    border: 2px solid blue;
+
+    /* padding */
+    /* padding: 10px; */
+    padding-left: 40px;
+
+    /* margin */
+    /* margin: 100px; */
+    /* margin: 20px 40px 20px 40px; */
+    /* margin: 0px auto 0 auto; */
+    margin: 0 auto;
+}
