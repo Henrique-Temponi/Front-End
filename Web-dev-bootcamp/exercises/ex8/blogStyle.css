@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    width: 75%;
+    height: 50%;
+    border: 10px solid grey;
+    padding: 20px;
+    font-family: 'Ubuntu Mono';
+}
+
+.date {
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+div h1 + p {
+    border-left: 5px solid grey;
+    padding: 5px;
+}
+
+.artigo {
+    
+}
