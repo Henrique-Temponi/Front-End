@@ -1,0 +1,21 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    color: purple;
+    background: #6194cf;
+}
+
+.navbar-inverse {
+    background: radial-gradient(red, green, blue);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
