@@ -19,3 +19,7 @@ body {
     color: white;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
