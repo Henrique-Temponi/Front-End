@@ -1,5 +1,6 @@
 body {
-    margin: auto;
+    margin: 20px auto;
+    /* max-width: ;  o tmanho maximo da largura nesse caso*/
     width: 75%;
     height: 50%;
     border: 10px solid grey;
@@ -10,6 +11,7 @@ body {
 .date {
     text-transform: uppercase;
     color: lightblue;
+    letter-spacing: 0.2rem;
 }
 
 div h1 + p {
@@ -18,5 +20,6 @@ div h1 + p {
 }
 
 .artigo {
-    
+    padding: 10px;
+    margin-bottom: 10px;
 }
